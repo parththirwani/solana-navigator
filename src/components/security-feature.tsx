@@ -27,7 +27,7 @@ export function SecurityFeatures() {
               <Lock className="h-8 w-8 text-blue-600" />
             </div>
             <h3 className="text-xl font-bold">Secure Storage</h3>
-            <p className="text-gray-400">We use industry-leading custody solutions to keep your digital assets safe.</p>
+            <p className="text-gray-400">Multi-factor authentication to protect your account.</p>
           </div>
           <div className="flex flex-col items-center space-y-4 text-center">
             <div className="bg-blue-600/20 p-4 rounded-full">
@@ -35,7 +35,7 @@ export function SecurityFeatures() {
             </div>
             <h3 className="text-xl font-bold">Access Control</h3>
             <p className="text-gray-400">
-              Multi-factor authentication and biometric verification protect your account.
+              We use token delegation method to protrct your public and private key.
             </p>
           </div>
         </div>

@@ -56,12 +56,12 @@ export default function Home() {
               <div className="relative hidden lg:block">
                 <div className="relative h-[600px] w-full">
                   <Image
-                    src="/secure-ai-agent.webp"
+                    src="/blockchain-integration.avif"
                     alt="Platform preview"
                     fill
                     className="object-cover rounded-lg"
                   />
-                </div>
+                </div>  
               </div>
             </div>
           </div>
@@ -86,7 +86,7 @@ export default function Home() {
                   Send crypto as easily as sending an email
                 </h2>
                 <p className="text-gray-600 md:text-xl">
-                  Our visual interface makes blockchain transactions intuitive. No more complicated addresses or
+                  Our LLM makes blockchain transactions intuitive. No more complicated addresses or
                   confusing gas fees.
                 </p>
                 <div className="grid gap-4 w-full">
@@ -210,30 +210,6 @@ export default function Home() {
         <StepsToWeb3 />
         <FeatureComparison />
         <SecurityFeatures />
-
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-black px-24">
-          <div className="container">
-            <div className="flex flex-col items-center space-y-4 text-center">
-              <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Ready to start your Web3 journey?</h2>
-                <p className="mx-auto max-w-[600px] text-gray-400 md:text-xl">
-                  Join thousands of users who are already exploring the future of finance with Solana Navigator.
-                </p>
-              </div>
-              <div className="w-full max-w-sm space-y-2">
-                <form className="flex space-x-2">
-                  <input
-                    className="flex h-10 w-full rounded-md border border-gray-700 bg-transparent px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-                    placeholder="Enter your email"
-                    type="email"
-                  />
-                  <Button type="submit">Get Started</Button>
-                </form>
-                <p className="text-xs text-gray-400">Try it free for 14 days. No credit card required.</p>
-              </div>
-            </div>
-          </div>
-        </section>
       </main>
       <footer className="border-t py-6 md:py-0 bg-black text-white px-24">
         <div className="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">

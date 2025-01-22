@@ -218,7 +218,12 @@ export default function Home() {
                 Solana Navigator
               </Link>
               . The source code is available on{" "}
-              <Link href="#" className="font-medium underline underline-offset-4">  
+              <Link 
+                href="https://github.com/nameunknwnn/solana-navigator" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="font-medium underline underline-offset-4"
+              >  
                 GitHub
               </Link>
               .

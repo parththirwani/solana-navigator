@@ -20,7 +20,7 @@ export function StepsToWeb3() {
             </div>
             <h3 className="text-xl font-bold">1. Create Account</h3>
             <p className="text-gray-400">
-              Sign up with your email. No blockchain knowledge needed - we'll handle the technical setup.
+              Sign up with your email. No blockchain knowledge needed - we&apos;ll handle the technical setup.
             </p>
             <Button variant="link">Learn more →</Button>
           </div>
@@ -30,7 +30,7 @@ export function StepsToWeb3() {
             </div>
             <h3 className="text-xl font-bold">2. Add Funds</h3>
             <p className="text-gray-400">
-              Deposit funds using your credit card or bank transfer. We'll convert it to SOL automatically.
+              Deposit funds using your credit card or bank transfer. We&apos;ll convert it to SOL automatically.
             </p>
             <Button variant="link">Learn more →</Button>
           </div>
@@ -47,4 +47,3 @@ export function StepsToWeb3() {
     </section>
   )
 }
-

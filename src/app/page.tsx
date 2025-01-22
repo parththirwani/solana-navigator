@@ -2,11 +2,10 @@ import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { MainNav } from "@/components/main-nav"
-import { ArrowRight, Wallet, Send, LineChart, Zap, Shield, Code } from "lucide-react"
+import { Wallet, Send, LineChart, Zap, Shield, Code } from "lucide-react"
 import { StepsToWeb3 } from "@/components/steps-to-web3"
 import { FeatureComparison } from "@/components/feature-comparison"
 import { SecurityFeatures } from "@/components/security-feature"
-
 
 export default function Home() {
   return (
@@ -24,7 +23,7 @@ export default function Home() {
               Log in
             </Link>
             <Button asChild>
-              <Link href="/get-started">Get started — it's free</Link>
+              <Button>Get started — it&apos;s free</Button>
             </Button>
           </div>
         </div>
@@ -33,7 +32,6 @@ export default function Home() {
         {/* Hero section - Black */}
         <section className="w-full py-24  bg-black text-white px-24">
           <div className="container">
-           
             <div className="grid gap-8 lg:grid-cols-[1fr_600px] items-center">
               <div className="flex flex-col items-start space-y-8">
                 <p className="text-sm font-semibold tracking-wide uppercase text-blue-500">BLOCKCHAIN MADE SIMPLE</p>
@@ -46,7 +44,7 @@ export default function Home() {
                 </p>
                 <div className="flex flex-col gap-4 min-[400px]:flex-row">
                   <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
-                    Get started — it's free
+                    Get started — it&apos;s free
                   </Button>
                   <Button size="lg" variant="outline" className="border-gray-700 hover:bg-gray-900">
                     View demo

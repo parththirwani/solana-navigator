@@ -18,7 +18,6 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body className={inter.className}>
-        <AnnouncementBanner/>
         <div className="pb-10">
           {children}
         </div>

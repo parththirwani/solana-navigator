@@ -6,10 +6,12 @@ import { Wallet, Send, LineChart, Zap, Shield, Code } from "lucide-react"
 import { StepsToWeb3 } from "@/components/steps-to-web3"
 import { FeatureComparison } from "@/components/feature-comparison"
 import { SecurityFeatures } from "@/components/security-feature"
+import { AnnouncementBanner } from "@/components/announcement-banner"
 
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col">
+      <AnnouncementBanner/>
       <header className="z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 px-24">
         <div className="container flex h-14 items-center">
           <Link href="/" className="flex items-center space-x-2">
@@ -43,7 +45,7 @@ export default function Home() {
                   tools for real-world use.
                 </p>
                 <div className="flex flex-col gap-4 min-[400px]:flex-row">
-                  <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+                  <Button asChild>
                     Get started — it&apos;s free
                   </Button>
                   <Button size="lg" variant="outline" className="border-gray-700 hover:bg-gray-900">
